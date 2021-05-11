@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  max-width: 1600px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+
+.form-wrap{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.nav-link{
+  font-size: 18px;
+}
+
+.err{
+  margin-top: .25rem;
+  font-size: .875em;
+  color: red;
+}

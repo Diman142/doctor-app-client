@@ -1,0 +1,10 @@
+.Header {
+  height: 80px;
+  background-color: rgb(185, 181, 189);
+}
+
+.HeaderTitle {
+  color: #0d1dfd;
+  font-weight: 600;
+  font-size: 32px
+}
