@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# Doctor-app-client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание
+Клиентская часть тествого задания Ст Групп. В приложении имеется 2 страницы (Форма записи и фильтр по записи к определенному врачу). Реализован следующий фукнционал
+1) Валидация полей имени и даты  
+2) Возможность выбора времени приема, данная возможность становится доступной после того как введенная дата прошла валидацию  
+3) Кнопка "Записаться", кнопка становится доступной после того как поля с именем пациента и датой прошли валидацию. После нажатия на кнопку запись попадает в базу данных и 
+ёё можно отследить на второй странице приложения  
+4) На странице с фитром данные из базы подгружаются автоматические после введения нужной даты и выбора врача, поле даты считается заполненным после прохождения валидации
 
-## Available Scripts
+## Стэк 
+Для сооздания клиентской части приложения использовались следующие технологии: React, TypeScript, Bootstrap, React-router, css-module
 
-In the project directory, you can run:
+## Скрипты 
+В клиентской части приложения доступны следующие скрипты
 
-### `yarn start`
+1) npm run start - для запуска приложения в режиме разработки  
+2) npm run build - для сборки приложеиня   
+3) npm run lint - для запуска линтера  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Деплой 
+Для деплоя использовался хостинг firebase
+Приложение доступно по ссылке: https://doctors-app-11096.web.app/
