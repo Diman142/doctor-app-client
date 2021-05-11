@@ -23,8 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "lint:fix": "eslint './src/**/*.{ts,tsx}'"
+    "lint": "eslint --ext .ts,.tsx src --fix",
+    "build": "react-scripts build"
+  },
+  "prettier": {
+    "printWidth": 120
   },
   "eslintConfig": {
     "extends": [
@@ -48,11 +51,16 @@
     "@types/react": "^17.0.5",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.0"
+    "prettier": "^2.3.0",
+    "typescript-plugin-css-modules": "^3.2.0"
   }
 }

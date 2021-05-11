@@ -1,21 +1,19 @@
-import React from 'react'
-import Header from '../containers/Header/Header'
-import Filter from '../containers/Filters/Filters'
+import React from 'react';
+import Header from '../containers/Header/Header';
+import Filter from '../containers/Filters/Filters';
 
 const Shedule: React.FC = () => {
-
-
-  return(
+  return (
     <>
-    <Header/>
-    <div className="container">
-      <h2 className="mb-3 mt-3 text-center">Расписание врачей</h2>
-      <div className="form-wrap">
-      <Filter/>
+      <Header/>
+      <div className="container">
+        <h2 className="mb-3 mt-3 text-center">Расписание врачей</h2>
+        <div className="form-wrap">
+          <Filter/>
+        </div>
       </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default Shedule
+export default Shedule;
